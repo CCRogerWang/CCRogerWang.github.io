@@ -40,6 +40,8 @@ Temporary Items
 *.py[cod]
 cache/
 output/
-
+id_rsa
+id_rsa.pub
 
 # End of https://www.gitignore.io/api/macos,nikola,jupyternotebook
+
