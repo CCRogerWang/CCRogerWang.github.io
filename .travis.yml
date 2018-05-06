@@ -31,5 +31,7 @@ script:
 - nikola build && nikola github_deploy -m 'Nikola auto deploy [ci skip]'
 notifications:
   email:
-    on_success: change
-    on_failure: always
+    recipients:
+      - roger77622@gmail.com
+    on_success: always # default: change
+    on_failure: always # default: always
